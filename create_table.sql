@@ -4,8 +4,10 @@ CREATE TABLE usuario(login VARCHAR(30),senha VARCHAR(15),cpf VARCHAR(11),email V
 
 CREATE TABLE onibus(id_onibus INT,num_linha INT,classificacao_linha CHAR(1),quant_crimes INT);
 
-CREATE TABLE comentarios(id_comentario INT,nome_usuario VARCHAR(30),tipo_comentario VARCHAR(20),descricao VARCHAR(200),data_comentario DATE);
+CREATE TABLE comentarios(id_comentario INT,nome_usuario VARCHAR(200),tipo_comentario VARCHAR(20),descricao VARCHAR(299),data_comentario DATE);
 
-CREATE TABLE rua(id_rua INT,nome_rua VARCHAR(200),bairro VARCHAR(50),cidade VARCHAR(30),classificacao_rua CHAR(1),quant_crimes INT);
+CREATE TABLE rua(id_rua INT,nome_rua VARCHAR(200),bairro VARCHAR(50),cidade VARCHAR(50),classificacao_rua CHAR(1),quant_crimes INT);
 
-CREATE TABLE itinerario(login VARCHAR(30),senha VARCHAR(15),cpf VARCHAR(11),email VARCHAR(11));
+CREATE TABLE itinerario(login VARCHAR(50),senha VARCHAR(15),cpf VARCHAR(11),email VARCHAR(50));
+
+CREATE TABLE crimes(numero INT,data DATE,hora TIME,tipo_crime VARCHAR(50),sexo CHAR(1),idade INT,cidade VARCHAR(50),bairro VARCHAR(50),rua VARCHAR(200));
