@@ -14,7 +14,7 @@
 
 **SOFTWARES UTILIZADOS**
 
->Banco de Dados: https://www.postgresql.org
+>Banco de Dados: https://www.postgresql.org <br>
 >Protótipo das telas: https://balsamiq.com
 
 
