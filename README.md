@@ -8,14 +8,14 @@
 
 >https://sesp.es.gov.br/estatisticas-criminais-2
 
-**LINK DOS ITINERÁRIOS DAS LINHAS DE ÔNIBUS
+**LINK DOS ITINERÁRIOS DAS LINHAS DE ÔNIBUS**
 
 >https://ceturb.es.gov.br/Itinerarios
 
 **SOFTWARES UTILIZADOS**
 
 >Banco de Dados: https://www.postgresql.org
->Protótipo das telas: https://balsamiq.com/
+>Protótipo das telas: https://balsamiq.com
 
 
 
